@@ -1,0 +1,5 @@
+p_old,p_new = input().split(" ")
+p_old = float(p_old)
+p_new = float(p_new)
+p = (p_new-p_old)/(p_old)
+print ("{:.2f}".format(p*100)+"%")
