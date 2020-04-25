@@ -1,0 +1,1 @@
+select name,CAST((TO_CHAR(payday,'DD')) AS INTEGER) "day" from loan;
